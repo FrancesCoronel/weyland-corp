@@ -1,0 +1,48 @@
+@charset "utf-8";
+.navContainerDiv {
+    height:inherit;
+}
+
+.siteLogo {
+    font-family:Savoye LET;
+    font-size:6em;
+    color:#ecf0f1;
+    height:inherit;
+    width:90px;
+    padding-left:16px;
+}
+
+.mainSectionContainer {
+    height:550px;
+}
+
+.siteHeader {
+    height:120px;
+    width:101.4%;
+    background-color:#34495e;
+    display:block;
+    box-shadow:1px 1px 1px rgba(0,0,0,0.8);
+    overflow:auto;
+}
+
+body {
+    background-color:#ecf0f1;
+}
+
+.navBarItems {
+    height:95px;
+    width:80px;
+    margin-top:15px;
+    margin-left:-21px;
+}
+
+.bodyContainer {
+    height:700px;
+}
+
+@media(max-width:767px) {
+    .siteHeader {
+        height:240px;
+    }
+}
+

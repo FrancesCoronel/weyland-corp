@@ -1,0 +1,65 @@
+@charset "utf-8";
+#skillCircle {
+    height:80px;
+}
+
+#skillCircle strong {
+    text-align:left;
+}
+
+#scoreCircle {
+    height:80px;
+}
+
+h2 {
+    white-space:nowrap;
+}
+
+.starImage {
+    padding-left:24px;
+}
+
+rankRow {
+    height:63px;
+}
+
+.usernameText {
+    text-align:center;
+    padding-left:none;
+}
+
+.profileImageSection {
+    height:450px;
+}
+
+.profileImageSection div {
+    height:400px;
+    width:400px;
+}
+
+.rankLevelSection h2 {
+    padding-left:14px;
+    font-family:Helvetica Neue;
+    font-weight:300;
+    width:60px;
+}
+
+div img {
+    padding-top:9px;
+    padding-left:-5px;
+}
+
+.profileImageSection img {
+    align-self:center;
+}
+
+body {
+    color:#555;
+}
+
+@media(max-width:767px) {
+    .starImage {
+        display:none;
+    }
+}
+

@@ -1,0 +1,75 @@
+.scoreboardButton {
+    background:url(../imgs/navigationBar/scoreboardSprite.png) no-repeat;
+    display:block;
+    height:75px;
+    width:75px;
+}
+
+.scoreboardButton:hover,
+.scoreboardButton:focus {
+    background-position:0 -75px;
+    width:75px;
+    height:75px;
+}
+
+.navBarItems p {
+    color:#ecf0f1;
+    text-align:center;
+}
+
+.challengesButton {
+    background:url(../imgs/navigationBar/challengesSprite.png) no-repeat;
+    display:block;
+    height:75px;
+    width:75px;
+}
+
+.challengesButton:hover,
+.challengesButton:focus {
+    background-position:0 -76px;
+    width:75px;
+    height:75px;
+}
+
+.skillsButton {
+    background:url(../imgs/navigationBar/skillsSprite.png) no-repeat;
+    display:block;
+    height:75px;
+    width:75px;
+}
+
+.skillsButton:hover,
+.skillsButton:focus {
+    background-position:0 -76px;
+    width:75px;
+    height:75px;
+}
+
+.optionsButton {
+    background:url(../imgs/navigationBar/optionsSprite.png) no-repeat;
+    display:block;
+    height:75px;
+    width:75px;
+}
+
+.optionsButton:hover,
+.optionsButton:focus {
+    background-position:0 -76px;
+    width:75px;
+    height:75px;
+}
+
+.dashboardButton {
+    background:url(../imgs/navigationBar/dashboardSprite.png) no-repeat;
+    display:block;
+    height:75px;
+    width:75px;
+}
+
+.dashboardButton:hover,
+.dashboardButton:focus {
+    background-position:0 -76px;
+    width:75px;
+    height:75px;
+}
+

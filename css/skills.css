@@ -1,0 +1,59 @@
+@charset "utf-8";
+.skillsHeader {
+    margin-top:38px;
+    z-index:0;
+    display:run-in;
+    position:absolute;
+}
+
+.skillsStarContainer {
+    margin-top:110px;
+    height:400px;
+}
+
+div h2 {
+    font-family:Helvetica Neue;
+    font-size:5em;
+    font-weight:lighter;
+    padding-left:50px;
+}
+
+li {
+}
+
+li span {
+    display:block;
+    width:362px;
+    height:65px;
+    background:url(../imgs/skills/star.png) 0 0;
+}
+
+li span span {
+    display:block;
+    height:65px;
+    width:50%;
+    background:url(../imgs/skills/starBold.png) 0 0p;
+}
+
+.skillLabelListItem {
+    margin-bottom:-15px;
+}
+
+li p {
+    padding-top:13px;
+    font-size:3em;
+}
+
+.mainSectionContainer ul {
+    margin-top:150px;
+}
+
+.starList {
+    padding:13px 4px 26px 122px;
+    margin-top:26px;
+}
+
+body {
+    color:#555;
+}
+
