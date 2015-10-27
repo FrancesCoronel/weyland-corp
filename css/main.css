@@ -1,95 +1,96 @@
 .loginBox input {
-    background-color:#ecf0f1;
-    margin-bottom:20px;
-    margin-top:10px;
-    height:40px;
-    width:300px;
+    background-color: #ecf0f1;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
 }
 
 .inputContainer {
-    height:300px;
+    height: 300px;
 }
 
 .registrationButton {
-    border-radius:25px;
-    background-color:#ecf0f1;
-    margin-left:5%;
-    width:132px;
-    position:relative;
-    margin-top:5%;
+    border-radius: 25px;
+    background-color: #ecf0f1;
+    margin-left: 5%;
+    width: 132px;
+    position: relative;
+    margin-top: 5%;
 }
 
 .loginButton {
-    float:right;
-    margin-right:5%;
-    direction:ltr;
-    display:inline-block;
-    margin-top:5%;
+    float: right;
+    margin-right: 5%;
+    direction: ltr;
+    display: inline-block;
+    margin-top: 5%;
 }
 
-button .btn .btn-success {
-}
+button .btn .btn-success {}
 
 .loginBox {
-    height:410px;
-    background-color:#C0C0C0;
-    width:360px;
-    box-shadow:3px 3px 3px 0 rgba(0, 0, 0, 0.80);
+    height: 410px;
+    background-color: #C0C0C0;
+    width: 360px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.80);
 }
 
 .avatarContainer {
-    height:130px;
-    width:125px;
+    height: 130px;
+    width: 125px;
 }
 
 .avatarImage {
-    margin:4px auto 4px auto;
+    margin: 4px auto 4px auto;
 }
 
 .loginBox label {
-    color:#ecf0f1;
-    text-align:center;
-    font-size:x-large;
-    margin-top:10%;
-}
-
-container {
+    color: #ecf0f1;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10%;
 }
 
 @charset "utf-8";
 body {
-    color:#555;
+    color: #555;
 }
 
 .siteContainer {
-    padding-top:none;
-    overflow:scroll;
-    background-color:#ecf0f1;
+    padding-top: none;
+    overflow: scroll;
+    background-color: #ecf0f1;
 }
 
 .homepageInvsNav {
-    background-color:#ecf0f1;
+    background-color: #ecf0f1;
 }
 
 .loginContainer {
-    background-color:;
-    height:400px;
-    margin-top:70px;
+    background-color: ;
+    height: 400px;
+    margin-top: 70px;
 }
 
 .registrationSection {
-    height:450px;
-    background-color:#ecf0f1;
+    height: 450px;
+    background-color: #ecf0f1;
 }
 
 .avatarContainer h2 {
-    color:#ecf0f1;
-    text-align:center;
+    color: #ecf0f1;
+    text-align: center;
 }
 
 .websiteBrand {
-    background-color:;
-    font-family:Savoye LET;
-    font-size:-webkit-xxx-large;
+    background-color: ;
+    font-family: Savoye LET;
+    font-size: -webkit-xxx-large;
 }
 
+.center-vertically {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
