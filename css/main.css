@@ -1,5 +1,5 @@
 .loginBox input {
-    background-color:#ecf0f1;
+    background-color:#C0C0C0;
     margin-bottom:20px;
     margin-top:10px;
     height:40px;
@@ -12,7 +12,7 @@
 
 .registrationButton {
     border-radius:25px;
-    background-color:#ecf0f1;
+    background-color:#C0C0C0;
     margin-left:5%;
     width:132px;
     position:relative;
@@ -64,11 +64,11 @@ body {
 .siteContainer {
     padding-top:none;
     overflow:scroll;
-    background-color:#ecf0f1;
+    background-color:#C0C0C0;
 }
 
 .homepageInvsNav {
-    background-color:#ecf0f1;
+    background-color:#C0C0C0;
 }
 
 .loginContainer {
@@ -79,11 +79,11 @@ body {
 
 .registrationSection {
     height:450px;
-    background-color:#ecf0f1;
+    background-color:#C0C0C0;
 }
 
 .avatarContainer h2 {
-    color:#ecf0f1;
+    color:#C0C0C0;
     text-align:center;
 }
 
