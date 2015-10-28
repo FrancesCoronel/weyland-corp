@@ -1,27 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>
-        C#er
-    </title>
-    <meta charset="utf-8" />
-    <meta name="description" content="My Parse App" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- For old IEs -->
-    <link rel="shortcut icon" href="favicons/favicon.ico" />
-    <!-- For new browsers multisize ico  -->
-    <link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="favicons/favicon.ico">
-    <!-- Chrome for Android -->
-    <link rel="icon" sizes="192x192" href="favicons/favicon-192.png">
-    <!-- For iPhone 6+ downscaled for other devices -->
-    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="favicons/favicon-180.png">
-    <!-- For IE10 Metro -->
-    <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="msapplication-TileImage" content="favicons/favicon-144.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="It's time to gamify CSC 151.">
+    <meta name="author" content="WeylandCorp">
+    <title>C#er</title>
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Our Stylesheet -->
     <link rel="stylesheet" href="css/main.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="img/favicons/favicon.ico">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="centering text-center">
+                <div class="branding">
+                    <div class="logo">
+                        <img src="img/loginScreen/logo.png" height="170" width="170" />
+                    </div>
+                    <div class="appName"><code>C#er</code></div>
+                    <div class="companyName">by Weyland Corp</div>
+                </div>
+                <form class="login">
+                    <input type="text" id="usernameInputField" class="form-control loginInput" placeholder="username" aria-describedby="inputSuccess2Status" required autofocus>
+                    <input type="password" id="passwordInputField" class="form-control loginInput" placeholder="password" />
+                    <button class="btn btn-default btn-responsive registrationButton" id="loginButtonPress">login <i class="fa fa-sign-in"></i></button>
+                    <button class="btn btn-default btn-responsive registrationButton" id="registrationButtonPress">create account <i class="fa fa-user-plus"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
     <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
@@ -29,26 +45,6 @@
     <script type="text/javascript" src="js/libs/underscore-min.js"></script>
     <script type="text/javascript" src="js/models/indexModel.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-</head>
-
-<body class="siteContainer">
-    <div class="container-fluid homepageInvsNav">
-        <div class="navbar-header websiteBrand">Weyland Corp</div>
-    </div>
-    <section class="registrationSection">
-        <div class="container loginContainer">
-            <div class="loginBox center-block">
-                <div class="center-block avatarContainer">
-                    <img class="avatarImage pagination-centered" src="imgs/loginScreen/logo.png" height="170" width="170" />
-                </div>
-                <label class="center-block">Login</label>
-                <input id="usernameInputField" placeholder="Username" aria-describedby="inputSuccess2Status" class="form-control center-block" type="text" />
-                <input id="passwordInputField" placeholder="Password" class="form-control center-block" type="password" />
-                <button class="btn btn-default registrationButton" id="registrationButtonPress">New User</button>
-                <button class="btn btn-default registrationButton .loginButton loginButton" id="loginButtonPress">Login</button>
-            </div>
-        </div>
-    </section>
 </body>
 
 </html>

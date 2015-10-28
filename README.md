@@ -35,8 +35,8 @@ To get started...
 ## Team
 
 | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="https://github.com/brandondrichards12" target="_blank">**Brandon Richards**</a> |
-| Coder | Coder |
 | :---: |:---:|
+| Coder | Coder |
 | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![Brandon](https://avatars1.githubusercontent.com/u/15094485?v=3&s=200)](https://github.com/brandondrichards12) |
 
 | Jordan Quick | Charles Cephas | Justin Havens

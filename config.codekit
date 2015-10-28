@@ -353,264 +353,264 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/favicons\/favicon-114.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13837,
-		"inputAbbreviatedPath": "\/favicons\/favicon-114.png",
-		"outputAbbreviatedPath": "\/favicons\/favicon-114.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/favicons\/favicon-120.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 14805,
-		"inputAbbreviatedPath": "\/favicons\/favicon-120.png",
-		"outputAbbreviatedPath": "\/favicons\/favicon-120.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/favicons\/favicon-144.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19557,
-		"inputAbbreviatedPath": "\/favicons\/favicon-144.png",
-		"outputAbbreviatedPath": "\/favicons\/favicon-144.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/favicons\/favicon-152.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21037,
-		"inputAbbreviatedPath": "\/favicons\/favicon-152.png",
-		"outputAbbreviatedPath": "\/favicons\/favicon-152.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/favicons\/favicon-180.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 26606,
-		"inputAbbreviatedPath": "\/favicons\/favicon-180.png",
-		"outputAbbreviatedPath": "\/favicons\/favicon-180.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/favicons\/favicon-192.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 29572,
-		"inputAbbreviatedPath": "\/favicons\/favicon-192.png",
-		"outputAbbreviatedPath": "\/favicons\/favicon-192.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/favicons\/favicon-32.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2454,
-		"inputAbbreviatedPath": "\/favicons\/favicon-32.png",
-		"outputAbbreviatedPath": "\/favicons\/favicon-32.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/favicons\/favicon-57.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5331,
-		"inputAbbreviatedPath": "\/favicons\/favicon-57.png",
-		"outputAbbreviatedPath": "\/favicons\/favicon-57.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/favicons\/favicon-72.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7427,
-		"inputAbbreviatedPath": "\/favicons\/favicon-72.png",
-		"outputAbbreviatedPath": "\/favicons\/favicon-72.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/favicons\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/favicons\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/imgs\/dashboard\/profileImage.png": {
+	"\/img\/dashboard\/profileImage.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 49545,
-		"inputAbbreviatedPath": "\/imgs\/dashboard\/profileImage.png",
-		"outputAbbreviatedPath": "\/imgs\/dashboard\/profileImage.png",
+		"inputAbbreviatedPath": "\/img\/dashboard\/profileImage.png",
+		"outputAbbreviatedPath": "\/img\/dashboard\/profileImage.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/dashboard\/star.png": {
+	"\/img\/dashboard\/star.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1477,
-		"inputAbbreviatedPath": "\/imgs\/dashboard\/star.png",
-		"outputAbbreviatedPath": "\/imgs\/dashboard\/star.png",
+		"inputAbbreviatedPath": "\/img\/dashboard\/star.png",
+		"outputAbbreviatedPath": "\/img\/dashboard\/star.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/dashboard\/thumbsup.png": {
+	"\/img\/dashboard\/thumbsup.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 15101,
-		"inputAbbreviatedPath": "\/imgs\/dashboard\/thumbsup.png",
-		"outputAbbreviatedPath": "\/imgs\/dashboard\/thumbsup.png",
+		"inputAbbreviatedPath": "\/img\/dashboard\/thumbsup.png",
+		"outputAbbreviatedPath": "\/img\/dashboard\/thumbsup.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/loginScreen\/avatar.png": {
+	"\/img\/favicons\/favicon-114.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13837,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-114.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-114.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicons\/favicon-120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14805,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-120.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicons\/favicon-144.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19557,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-144.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-144.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicons\/favicon-152.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21037,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-152.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-152.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicons\/favicon-180.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26606,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-180.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-180.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicons\/favicon-192.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29572,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-192.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-192.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicons\/favicon-32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2454,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-32.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-32.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicons\/favicon-57.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5331,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-57.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-57.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicons\/favicon-72.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7427,
+		"inputAbbreviatedPath": "\/img\/favicons\/favicon-72.png",
+		"outputAbbreviatedPath": "\/img\/favicons\/favicon-72.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/favicons\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/img\/favicons\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/loginScreen\/avatar.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 14608,
-		"inputAbbreviatedPath": "\/imgs\/loginScreen\/avatar.png",
-		"outputAbbreviatedPath": "\/imgs\/loginScreen\/avatar.png",
+		"inputAbbreviatedPath": "\/img\/loginScreen\/avatar.png",
+		"outputAbbreviatedPath": "\/img\/loginScreen\/avatar.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/loginScreen\/Logo.png": {
+	"\/img\/loginScreen\/Logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 79663,
-		"inputAbbreviatedPath": "\/imgs\/loginScreen\/Logo.png",
-		"outputAbbreviatedPath": "\/imgs\/loginScreen\/Logo.png",
+		"inputAbbreviatedPath": "\/img\/loginScreen\/Logo.png",
+		"outputAbbreviatedPath": "\/img\/loginScreen\/Logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/logo.png": {
+	"\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 145831,
-		"inputAbbreviatedPath": "\/imgs\/logo.png",
-		"outputAbbreviatedPath": "\/imgs\/logo.png",
+		"inputAbbreviatedPath": "\/img\/logo.png",
+		"outputAbbreviatedPath": "\/img\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/navigationBar\/challengesSprite.png": {
+	"\/img\/navigationBar\/challengesSprite.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 12246,
-		"inputAbbreviatedPath": "\/imgs\/navigationBar\/challengesSprite.png",
-		"outputAbbreviatedPath": "\/imgs\/navigationBar\/challengesSprite.png",
+		"inputAbbreviatedPath": "\/img\/navigationBar\/challengesSprite.png",
+		"outputAbbreviatedPath": "\/img\/navigationBar\/challengesSprite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/navigationBar\/dashboardSprite.png": {
+	"\/img\/navigationBar\/dashboardSprite.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 10723,
-		"inputAbbreviatedPath": "\/imgs\/navigationBar\/dashboardSprite.png",
-		"outputAbbreviatedPath": "\/imgs\/navigationBar\/dashboardSprite.png",
+		"inputAbbreviatedPath": "\/img\/navigationBar\/dashboardSprite.png",
+		"outputAbbreviatedPath": "\/img\/navigationBar\/dashboardSprite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/navigationBar\/optionsSprite.png": {
+	"\/img\/navigationBar\/optionsSprite.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 15606,
-		"inputAbbreviatedPath": "\/imgs\/navigationBar\/optionsSprite.png",
-		"outputAbbreviatedPath": "\/imgs\/navigationBar\/optionsSprite.png",
+		"inputAbbreviatedPath": "\/img\/navigationBar\/optionsSprite.png",
+		"outputAbbreviatedPath": "\/img\/navigationBar\/optionsSprite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/navigationBar\/scoreboardSprite.png": {
+	"\/img\/navigationBar\/scoreboardSprite.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 12277,
-		"inputAbbreviatedPath": "\/imgs\/navigationBar\/scoreboardSprite.png",
-		"outputAbbreviatedPath": "\/imgs\/navigationBar\/scoreboardSprite.png",
+		"inputAbbreviatedPath": "\/img\/navigationBar\/scoreboardSprite.png",
+		"outputAbbreviatedPath": "\/img\/navigationBar\/scoreboardSprite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/navigationBar\/skillsSprite.png": {
+	"\/img\/navigationBar\/skillsSprite.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 12508,
-		"inputAbbreviatedPath": "\/imgs\/navigationBar\/skillsSprite.png",
-		"outputAbbreviatedPath": "\/imgs\/navigationBar\/skillsSprite.png",
+		"inputAbbreviatedPath": "\/img\/navigationBar\/skillsSprite.png",
+		"outputAbbreviatedPath": "\/img\/navigationBar\/skillsSprite.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/scoreboard\/trophy.png": {
+	"\/img\/scoreboard\/trophy.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 67197,
-		"inputAbbreviatedPath": "\/imgs\/scoreboard\/trophy.png",
-		"outputAbbreviatedPath": "\/imgs\/scoreboard\/trophy.png",
+		"inputAbbreviatedPath": "\/img\/scoreboard\/trophy.png",
+		"outputAbbreviatedPath": "\/img\/scoreboard\/trophy.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/skills\/star.png": {
+	"\/img\/skills\/star.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 18392,
-		"inputAbbreviatedPath": "\/imgs\/skills\/star.png",
-		"outputAbbreviatedPath": "\/imgs\/skills\/star.png",
+		"inputAbbreviatedPath": "\/img\/skills\/star.png",
+		"outputAbbreviatedPath": "\/img\/skills\/star.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/imgs\/skills\/starBold.png": {
+	"\/img\/skills\/starBold.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 18600,
-		"inputAbbreviatedPath": "\/imgs\/skills\/starBold.png",
-		"outputAbbreviatedPath": "\/imgs\/skills\/starBold.png",
+		"inputAbbreviatedPath": "\/img\/skills\/starBold.png",
+		"outputAbbreviatedPath": "\/img\/skills\/starBold.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
