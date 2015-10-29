@@ -4,12 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <title>
-        Untitled
+	C#er
     </title>
     <meta name="description" />
     <meta name="author" />
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=2.0;" />
+       <!-- Font Awesome -->
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/siteDefaults.css" />
     <link rel="stylesheet" href="css/sprites.css" />
     <link rel="stylesheet" href="css/options.css" />
@@ -20,7 +22,7 @@
         <div class="navContainerDiv container-fluid">
             <div class="row">
                 <div class="col-sm-2 col-xs-offset-4 col-sm-offset-0">
-                    <h1 class="siteLogo">Astro</h1>
+                    <h1 class="siteLogo">C#er</h1>
                 </div>
                 <div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
                     <div class="navBarItems">
@@ -57,36 +59,32 @@
     </div>
     <div class="mainSectionContainer container-fluid row">
         <div class="middleContainer row">
-            <div class="col-sm-1">
-                <button class="buttonPrevious col-sm-1">&lt;</button>
-            </div>
             <div class="col-sm-offset-1 col-sm-7">
-                <div class="profileImageContainer">
-                    <img id="profileImage" class="col-sm-offset-3" /></div>
-            </div>
-            <div class="col-sm-1 col-sm-offset-2">
-                <button class="buttonNext ">&gt;</button>
-            </div>
-        </div>
+                <div class="Avatar">
+                	<img src="img/loginScreen/logo.png" height="250" width="250" />
+                </div>
+        	</div>
         <div class="col-sm-6 col-sm-offset-4 answerchoiceContainer row">
             <ul class="list-unstyled contentList">
                 <li id="usernameChange" style="opacity: 1;">
-                    <button class="button_1"></button>
                     <input id="usernameInputField" placeholder="Username" aria-describedby="inputSuccess2Status" class="form-control center-block" type="text" />
                 </li>
                 <li id="choice2" style="opacity: 1;">
-                    <button class="button_2"></button>
                     <input id="emailInputField" placeholder="Email" aria-describedby="inputSuccess2Status" class="form-control center-block" type="text" />
                 </li>
                 <li id="choice3" style="opacity: 1;">
-                    <button class="button_3"></button>
                     <input id="passwordInputField" placeholder="Password" aria-describedby="inputSuccess2Status" class="form-control center-block" type="text" />
                 </li>
-                <li id="choice4" style="opacity: 1;">
-                    <button class="button_4">
-                        <p>Logout</p>
+                <div id="choice4" style="opacity: 1;">
+                    <button class="changeButton">
+                        <p>Change Details</p>
                     </button>
-                </li>
+                    
+                     <button class="changeButton2">
+                        <p>Change Avatar</p>
+                    </button>
+                </div>
+                
             </ul>
         </div>
     </div>
