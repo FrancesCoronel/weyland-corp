@@ -1,8 +1,4 @@
 @charset "utf-8";
-@font-face {
-    font-family: ProximaNova;
-    src: url("/fonts/proxima_nova/proxima_nova_reg-webfont.ttf");
-}
 
 .contentList {
 }
@@ -10,19 +6,19 @@
 #usernameInputField {
     display:inline-block;
     width:300px;
-    background-color:transparent;
+    background-color:white;
 }
 
 #passwordInputField {
     display:inline-block;
     width:300px;
-    background-color:transparent;
+    background-color:white;
 }
 
 #emailInputField {
     display:inline-block;
     width:300px;
-    background-color:transparent;
+    background-color:white;
 }
 
 .Avatar {
@@ -53,17 +49,22 @@ li button {
         padding: 2px 4px;
         font-size: 80%;
         line-height: 1;
-        border-radius: 20px;
+        border-radius: 30px;
+        width:50%;
         display:inline-block;
-    
+        background-color:#F1FFFA;
+        
 }
 
 .changeButton2{
      padding: 2px 4px;
      font-size: 80%;
      line-height: 1;
-     border-radius: 20px;
+     border-radius: 30px;
+     width:50%;
      display:inline-block;
+     background-color:#F1FFFA;
+     
 }
 
 .submissionDiv {
