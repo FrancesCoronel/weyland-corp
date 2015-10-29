@@ -49,7 +49,7 @@ var parseLoginAuthentication = function(username, password) {
         },
         error: function(user, error) {
                 // The login failed. Check error to see why.
-                alert('NOT');
+                alert('Login Failed Please Try Again');
 
             } //end - error
 
@@ -87,7 +87,7 @@ var resettingRegistrationValuesForButtonPress = function() {
 };
 
 var clearOutInputs = function() {
-    //removing content from the inital input fields
+    //removing content from the initial input fields
     $('#usernameInputField').val('');
     $('#passwordInputField').val('');
 
