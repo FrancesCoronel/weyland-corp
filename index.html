@@ -1,70 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="It's time to gamify CSC 151 at Hampton University.">
-    <meta name="author" content="WeylandCorp">
-    <title>C#er</title>
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!-- Our Stylesheet -->
-    <link rel="stylesheet" href="css/main.css" />
-    <!-- Favicon -->
-    <link rel="icon" href="imgs/favicons/favicon.ico">
-</head>
-
-<body>
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="centering text-center">
-                <div class="branding">
-                    <div class="logo">
-                        <img src="imgs/loginScreen/logo.png" height="170" width="170" />
-                    </div>
-                    <div class="appName"><code>C#er</code></div>
-                    <div class="companyName">by Weyland Corp</div>
-                </div>
-                <form class="login">
-                    <!-- <input type="text" id="usernameInputField" class="form-control loginInput" placeholder="Username" aria-describedby="inputSuccess2Status" required autofocus>
-                    <input type="password" id="passwordInputField" class="form-control loginInput" placeholder="Password" />
-                    <button class="btn btn-default btn-responsive registrationButton" id="registrationButtonPress">Login <i class="fa fa-sign-in"></i></button>
-                    <button class="btn btn-default btn-responsive registrationButton" id="loginButtonPress">Create Account <i class="fa fa-user-plus"></i></button> -->
-                <input id="passwordInputField" placeholder="Password" class="center-block" type="password" />
-                <button class="btn btn-default registrationButton" id="registrationButtonPress">New User</button>
-                <button class="btn btn-default registrationButton .loginButton loginButton" id="loginButtonPress">Login</button>
-                </form>
-            </div>
-        </div>
-    </div>
-    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/libs/underscore-min.js"></script>
-    <script type="text/javascript" src="js/models/indexModel.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/libs/jquery-1.11.2.min.js">
-    script
-    </script>
-    <script src="js/libs/underscore-min.js">
-    script
-    </script>
-    <script type="text/javascript" src="js/models/indexModel.js">
-    script type = 'text/javascript/Models/indexModel.js
-    src = '
-    main.js ''
-    </script>
-    <script type="text/javascript" src="js/index.js">
-    script type = 'text/javascript'
-    src = 'main.js'
-    </script>
-</body>
-
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>My Parse App</title>
+		<meta name="description" content="My Parse App" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/libs/jquery-1.11.2.min.js">
+			script
+		</script>
+		<script src="js/libs/underscore-min.js">
+			script
+		</script>
+		<script type="text/javascript" src="js/models/indexModel.js">
+			script type = 'text/javascript/Models/indexModel.js
+																								 src = '
+			main.js ''</script>
+		<script type="text/javascript" src="js/index.js">
+			script type = 'text/javascript'
+			src = 'main.js'</script>
+	</head>
+	<body class="siteContainer">
+		<div class="container-fluid homepageInvsNav">
+			<div class="navbar-header websiteBrand">Astro</div>
+		</div>
+		<section class="registrationSection">
+			<div class="container loginContainer">
+				<div class="loginBox center-block">
+					<div class="center-block avatarContainer">
+						<img class="avatarImage pagination-centered" src="imgs/loginScreen/avatar.png" />
+					</div>
+					<label class="center-block">Login</label>
+					<input id="usernameInputField" placeholder="Username" aria-describedby="inputSuccess2Status" class="form-control center-block" type="text" /><input id="passwordInputField" placeholder="Password" class="center-block" type="password" />
+					<button class="btn btn-default registrationButton" id="registrationButtonPress">New User</button>
+					<button class="btn btn-default registrationButton .loginButton loginButton" id="loginButtonPress">Login</button>
+				</div>
+			</div>
+		</section>
+	</body>
 </html>
