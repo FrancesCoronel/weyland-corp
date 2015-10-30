@@ -43,7 +43,8 @@ button .btn .btn-success {
 }
 
 .avatarImage {
-    margin:4px auto 4px auto;
+    padding: 5%;
+    width: 150px;
 }
 
 .loginBox label {
