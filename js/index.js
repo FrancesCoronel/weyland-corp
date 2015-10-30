@@ -111,7 +111,6 @@ $(document).ready(function() {
     //Listening for LOGIN button to be pressed
     $("#registrationButtonPress").click(function() {
 
-
         if (toggleHeight) {
             //Hiding password, and email fields
             removeFormFields();
