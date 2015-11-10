@@ -9,13 +9,29 @@
     <meta name="author" content="WeylandCorp">
     <title>C#er</title>
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Our Stylesheet -->
     <link rel="stylesheet" href="css/main.css" />
     <!-- Favicon -->
     <link rel="icon" href="imgs/favicons/favicon.ico">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Parse -->
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    <!-- Underscore -->
+    <script src="js/libs/underscore-min.js"></script>
+    <!-- index model -->
+    <script type="text/javascript" src="js/models/indexModel.js"></script>
+    <!-- index -->
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
@@ -34,37 +50,38 @@
                     <input type="password" id="passwordInputField" class="form-control loginInput" placeholder="Password" />
                     <button class="btn btn-default btn-responsive registrationButton" id="registrationButtonPress">Login <i class="fa fa-sign-in"></i></button>
                     <button class="btn btn-default btn-responsive registrationButton" id="loginButtonPress">Create Account <i class="fa fa-user-plus"></i></button> -->
-                <input id="passwordInputField" placeholder="Password" class="center-block" type="password" />
-                <button class="btn btn-default registrationButton" id="registrationButtonPress">New User</button>
-                <button class="btn btn-default registrationButton .loginButton loginButton" id="loginButtonPress">Login</button>
+                    <input id="passwordInputField" placeholder="Password" class="center-block" type="password" />
+                    <button class="btn btn-default registrationButton" id="registrationButtonPress">New User</button>
+                    <button class="btn btn-default registrationButton .loginButton loginButton" id="loginButtonPress">Login</button>
                 </form>
             </div>
         </div>
     </div>
-    <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/libs/underscore-min.js"></script>
-    <script type="text/javascript" src="js/models/indexModel.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/libs/jquery-1.11.2.min.js">
-    script
-    </script>
-    <script src="js/libs/underscore-min.js">
-    script
-    </script>
-    <script type="text/javascript" src="js/models/indexModel.js">
-    script type = 'text/javascript/Models/indexModel.js
-    src = '
-    main.js ''
-    </script>
-    <script type="text/javascript" src="js/index.js">
-    script type = 'text/javascript'
-    src = 'main.js'
-    </script>
+</body>
+
+<body class="siteContainer">
+    <div class="container-fluid homepageInvsNav">
+        <div class="navbar-header websiteBrand">WeylandCorp</div>
+        <div class="logo">
+            <img src="imgs/loginScreen/logo.png" height="170" width="170" />
+        </div>
+        <div class="appName"><code>C#er</code></div>
+        <div class="companyName">by Weyland Corp</div>
+    </div>
+    <section class="registrationSection">
+        <div class="container loginContainer">
+            <div class="loginBox center-block">
+                <div class="center-block avatarContainer">
+                    <img class="avatarImage pagination-centered" src="imgs/loginScreen/avatar.png" />
+                </div>
+                <label class="center-block">It's time to <code>C#er</code>.</label>
+                <input id="usernameInputField" placeholder="Username" aria-describedby="inputSuccess2Status" class="form-control center-block" type="text" />
+                <input id="passwordInputField" placeholder="Password" class="form-control center-block" type="password" />
+                <button class="btn btn-default registrationButton" id="registrationButtonPress">New User</button>
+                <button class="btn btn-default registrationButton .loginButton loginButton" id="loginButtonPress">Login</button>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
