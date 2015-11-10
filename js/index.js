@@ -8,24 +8,23 @@ Blake McMillian
 
 //Document ready function
 $( document ).ready(function() {
-	
 
 	var userObjects = Parse.Object.extend("User");
 	var query = new Parse.Query(userObjects);
 	var rank = '';
-	 
+
 	 query.find({
  	 success: function(results) {
     // comments now contains the comments for myPost
    		var num = results.length;
    		rank = num.toString();
-   		
+
   } });
 
-	 
+
 	//Listening for LOGIN button to be pressed
 	$("#loginButtonPress").click(function(){
-		
+
 		//Check the form fields in the dom to determine if the user is registering
 		if(userIsRegistering)
 		{
@@ -33,7 +32,7 @@ $( document ).ready(function() {
 			var userIsValid = true;
 			var passwordIsValid = false;
 			var emailIsValid = false;
-			
+
 			//alert("Registering new user");
 			//Getting the user's registration information
 		   	var usernameRegistration = $('#usernameInputField').val();
@@ -41,17 +40,17 @@ $( document ).ready(function() {
 			var passwordConfirmation = $('#passwordConfirmation').val();
 			var emailRegistration = $('#emailConfirmationOne').val();
 			var emailConfirmationRegistration = $('#emailConfirmationTwo').val();
-			
+
 			//Make sure that the username does not exist
 			var queryUsers = new Parse.Query(Parse.User);
 			var GameScore = Parse.Object.extend("GameScore");
-			
+
 
 			//Querying whether or not the user exists
-			queryUsers.equalTo("username", usernameRegistration); 
+			queryUsers.equalTo("username", usernameRegistration);
 			//Determining if the user is valid
 			userIsValid = validateUser(userIsValid,queryUsers);
-			
+
 			if(userIsValid === true)
 			{
 				//Confirm that both passwords are the same
@@ -59,14 +58,14 @@ $( document ).ready(function() {
 				passwordIsValid = true;
 				else
 					alert('Please make sure that both of your passwords are identical');
-			
+
 				//Confirm that both email addresses are the same
 				if(emailRegistration === emailConfirmationRegistration)
 				emailIsValid = true;
 				else
 					alert('Please make sure that both of your email addresses are identical');
 
-				
+
 				//Make sure the last 4 characters of the string ends in ".com"
 				if(passwordIsValid && emailIsValid)
 				{
@@ -105,76 +104,76 @@ $( document ).ready(function() {
 					    alert("Error: " + error.code + " " + error.message);
 					  }
 					});
-					
-					
+
+
 				}//end - conditional
-				
-								
+
+
 			}//end - if conditional
-			
+
 		}//end - if conditional
-		
+
 	if(userIsRegistering === false)//Source code for when the user is logging in
 	{
 		//Obtaining the username and password from the user
 		username = $('#usernameInputField').val();
 		password = $('#passwordInputField').val();
-		
+
 		//Authenticating the user's credientials
 		parseLoginAuthentication(username,password);
 	}//end conditional
-	
+
   });//end - loginButtonPress event
 
 	//Listening for LOGIN button to be pressed
 	$("#registrationButtonPress").click(function(){
 
-		
+
 		if(toggleHeight)
 		{
 			//Hiding password, and email fields
 			removeFormFields();
 			//Change the button Names
 			togglingUsernameAndRegisterationButtonText();
-			
+
 			//Animating the loginbox and form fields
 			aniamteFormFieldsTo();
-	
+
 			//Rendering registration field, and appending it within the loginbox
 			renderingRegistrationFieldsAndAppendingThemToDOM();
-			
+
 			//Toggling the boolean values
 			toggleBooleanValuesForRegistrationButtonPress();
-			
-			
+
+
 		}//end - if statement
-		
+
 		else {
-			
+
 			//Animating form fields FROM
 			aniamteFormFieldsFrom();
-			
+
 			//Hiding the form fields
 			hideFormFields();
-			
+
 			//Clear out inputs
 			clearOutInputs();
-			
+
 			//Resseting the boolean values for button press
 			resettingRegistrationValuesForButtonPress();
-	
+
 			//Toggling login and registration button text
 			resettingUsernameAndRegistrationButtonText();
-		
+
 
 		}//end - else statement
-		
-		
+
+
 	});//end - registrationButtonFunction
-	
 
 
 
 
 
-}); 
+
+});
