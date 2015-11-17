@@ -3,7 +3,7 @@
  */
 $( document ).ready(function() {
 	
-	//Reinitilizng Parse
+	//Reinitializing Parse
 	Parse.initialize("l3iYSEoRauE5ctDyD6CwojGCGIyJHxeCmgEMhnjZ", "prAydsNAqfn6j4BYudc9iJhvavc0C5IcMUyOC6Yj");
 
 	var pagePosition = 1;
@@ -25,13 +25,13 @@ $( document ).ready(function() {
     	userSelections.push = ('empty');
         questionArray.push(results[i]);
         numericalPosition = pagePosition;
-     // Load the inital questionsPrompt
+     // Load the initial questionsPrompt
      if(i === 0){
      		 $('#questionInstructions').text(results[i].get('questionPrompt'));
 		      //Append the html
 		      if(results[i].get('htmlFormat'))
 		      $('.questionContainer').append(results[i].get('htmlFormat'));
-		  	  else//Load the inital question
+		  	  else//Load the initial question
 		      $('.questionText').text(results[i].get('question'));
 				      //Load answer choice one
 		      $('.questionChoiceOne').text(results[i].get('answerChoiceOne'));
@@ -105,7 +105,7 @@ $( document ).ready(function() {
 		      //Append the html
 		      if(questionArray[pagePosition-1].get('htmlFormat'))
 		      $('.questionContainer').append(questionArray[pagePosition-1].get('htmlFormat'));
-		  	  else//Load the inital question
+		  	  else//Load the initial question
 		      $('.questionText').text(questionArray[pagePosition-1].get('question'));
 				      //Load answer choice one
 		      $('.questionChoiceOne').text(questionArray[pagePosition-1].get('answerChoiceOne'));
@@ -171,7 +171,7 @@ $( document ).ready(function() {
 		      //Append the html
 		      if(questionArray[pagePosition-1].get('htmlFormat'))
 		      $('.questionContainer').append(questionArray[pagePosition-1].get('htmlFormat'));
-		  	  else//Load the inital question
+		  	  else//Load the initial question
 		      $('.questionText').text(questionArray[pagePosition-1].get('question'));
 				      //Load answer choice one
 		      $('.questionChoiceOne').text(questionArray[pagePosition-1].get('answerChoiceOne'));
@@ -267,37 +267,8 @@ $( document ).ready(function() {
 		  }
 		});
 
-		
-
 	    
 	});
-
-
-
-
-
-
-
-	
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 });
