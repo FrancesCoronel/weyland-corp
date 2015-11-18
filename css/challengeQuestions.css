@@ -154,13 +154,20 @@ ul{
 	display:inline-block;
 }
 
-.buttonSubmit
-{
-	border-radius:20px;
-    width:60px;
-    height:50x;
-    margin:4px;
-    display:inline-block;
-	background-color:#2c3e50;
+.buttonSubmit{
+	border-radius:25px;
+    background-color:#2c3e50;
+    margin-left:5%;
+    width:132px;
+    position:relative;
+    margin-top:5%;
 	    	
+}
+.Timer{
+	margin-top:10px;
+    white-space:normal;
+    font-family:Al Bayan;
+    font-size:large;
+    color:black;
+	
 }
