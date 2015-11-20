@@ -1,186 +1,184 @@
 @charset "utf-8";
-.contentList {
-}
+.contentList {}
 
 #usernameInputField {
-    display:inline-block;
-    width:300px;
-    background-color:transparent;
+    display: inline-block;
+    width: 300px;
+    background-color: transparent;
 }
 
 #passwordInputField {
-    display:inline-block;
-    width:300px;
-    background-color:transparent;
+    display: inline-block;
+    width: 300px;
+    background-color: transparent;
 }
 
 #emailInputField {
-    display:inline-block;
-    width:300px;
-    background-color:transparent;
+    display: inline-block;
+    width: 300px;
+    background-color: transparent;
 }
 
 #profileImage {
-    height:400px;
-    width:400px;
-    margin-top:25px;
+    height: 400px;
+    width: 400px;
+    margin-top: 25px;
 }
 
 .submissionAnchor {
-    margin-left:3px;
+    margin-left: 3px;
 }
 
 a p {
-    text-align:center;
-    padding:75px 4px 4px 4px;
+    text-align: center;
+    padding: 75px 4px 4px 4px;
 }
 
 .button_1 {
-    border-radius:20px;
-    width:47px;
-    height:41px;
-    background-color:transparent;
-    margin:4px;
-    display:inline-block;
+    border-radius: 20px;
+    width: 47px;
+    height: 41px;
+    background-color: transparent;
+    margin: 4px;
+    display: inline-block;
 }
 
 button p {
-    color:black;
+    color: black;
 }
 
 .button_2 {
-    border-radius:20px;
-    width:47px;
-    height:41px;
-    background-color:transparent;
-    margin:4px;
+    border-radius: 20px;
+    width: 47px;
+    height: 41px;
+    background-color: transparent;
+    margin: 4px;
 }
 
 li button {
-    padding-bottom:12px;
+    padding-bottom: 12px;
 }
 
 .button_3 {
-    border-radius:20px;
-    width:47px;
-    height:41px;
-    background-color:transparent;
-    margin:4px;
+    border-radius: 20px;
+    width: 47px;
+    height: 41px;
+    background-color: transparent;
+    margin: 4px;
 }
 
 .button_4 {
-    border-radius:20px;
-    width:57px;
-    height:41px;
-    background-color:transparent;
-    margin:4px auto;
-    display:block;
+    border-radius: 20px;
+    width: 57px;
+    height: 41px;
+    background-color: transparent;
+    margin: 4px auto;
+    display: block;
 }
 
 .buttonPrevious {
-    border-radius:20px;
-    width:47px;
-    height:41px;
-    background-color:#ecf0f1;
-    margin:95px 4px 4px 4px;
+    border-radius: 20px;
+    width: 47px;
+    height: 41px;
+    background-color: #ecf0f1;
+    margin: 95px 4px 4px 4px;
 }
 
 .buttonNext {
-    border-radius:20px;
-    width:47px;
-    height:41px;
-    background-color:#ecf0f1;
-    margin:95px 4px 4px 4px;
+    border-radius: 20px;
+    width: 47px;
+    height: 41px;
+    background-color: #ecf0f1;
+    margin: 95px 4px 4px 4px;
 }
 
 .buttonSubmit {
-    border-radius:42px;
-    width:96px;
-    height:120px;
-    background-color:#ecf0f1;
-    margin:0px 4px 4px 4px;
+    border-radius: 42px;
+    width: 96px;
+    height: 120px;
+    background-color: #ecf0f1;
+    margin: 0px 4px 4px 4px;
 }
 
 .submissionDiv {
-    margin-top:30px;
+    margin-top: 30px;
 }
 
 .answerchoiceContainer {
-    margin-top:20px;
-    height:500px;
-    display:block;
+    margin-top: 20px;
+    height: 500px;
+    display: block;
 }
 
 .questionText {
-    margin-top:25px;
-    white-space:normal;
+    margin-top: 25px;
+    white-space: normal;
 }
 
 .profileImageContainer {
-    width:350;
-    height:400px;
-    background:transparent;
-    box-shadow:0px;
+    width: 350;
+    height: 400px;
+    background: transparent;
+    box-shadow: 0px;
 }
 
 .middleContainer {
-    height:250px;
-    display:block;
+    height: 250px;
+    display: block;
 }
 
 .buttonNext {
-    margin-top:95px;
+    margin-top: 95px;
 }
 
 .pageLabelAndImageContainer {
-    margin-top:110px;
-    height:400px;
+    margin-top: 110px;
+    height: 400px;
 }
 
 div h2 {
-    font-family:Helvetica Neue;
-    font-size:x-large;
-    font-weight:100;
-    padding-left:67px;
+    font-family: Helvetica Neue;
+    font-size: x-large;
+    font-weight: 100;
+    padding-left: 67px;
 }
 
 li {
-    margin-bottom:25px;
-    border:solid 1px transparent;
-    color:black;
+    margin-bottom: 25px;
+    border: solid 1px transparent;
+    color: black;
 }
 
 li a {
-    margin-right:19px;
+    margin-right: 19px;
 }
 
 li p {
-    padding-top:-3px;
-    font-size:small;
-    display:inline-block;
-    white-space:normal;
-    height:40px;
-    width:550px;
-    word-wrap:break-word;
-    color:black;
-    text-align:left;
-    padding-top:8px;
+    padding-top: -3px;
+    font-size: small;
+    display: inline-block;
+    white-space: normal;
+    height: 40px;
+    width: 550px;
+    word-wrap: break-word;
+    color: black;
+    text-align: left;
+    padding-top: 8px;
 }
 
 .questionChoiceOne {
-    padding-top:32px;
-    height:inherit;
-    text-align:left;
+    padding-top: 32px;
+    height: inherit;
+    text-align: left;
 }
 
-.answerText {
-}
+.answerText {}
 
 .mainSectionContainer ul {
-    margin-top:0px;
+    margin-top: 0px;
 }
 
 body {
-    color:#555;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
 }
-
