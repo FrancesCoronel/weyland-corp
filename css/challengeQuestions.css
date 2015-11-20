@@ -1,6 +1,6 @@
 @charset "utf-8";
 .submissionAnchor {
-    margin-left:3px;
+    /*margin-left:3px;*/
 }
 
 a p {
@@ -65,22 +65,15 @@ li button {
     margin:95px 4px 4px 4px;
 }
 
-.buttonSubmit {
-    border-radius:42px;
-    width:96px;
-    height:120px;
-    background-color:#2c3e50;
-    margin:0px 4px 4px 4px;
-}
 
 .submissionDiv {
-    margin-top:30px;
+    /*margin-top:30px;*/
 }
 
 .answerchoiceContainer {
     margin-top:20px;
     height:500px;
-    display:block;
+    
 }
 
 .questionText {
@@ -157,3 +150,24 @@ body {
     color:#555;
 }
 
+ul{
+	display:inline-block;
+}
+
+.buttonSubmit{
+	border-radius:25px;
+    background-color:#2c3e50;
+    margin-left:5%;
+    width:132px;
+    position:relative;
+    margin-top:5%;
+	    	
+}
+.Timer{
+	margin-top:10px;
+    white-space:normal;
+    font-family:Al Bayan;
+    font-size:large;
+    color:black;
+	
+}
