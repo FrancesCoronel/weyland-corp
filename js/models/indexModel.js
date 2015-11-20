@@ -49,7 +49,7 @@ var parseLoginAuthentication = function(username, password) {
         },
         error: function(user, error) {
                 // The login failed. Check error to see why.
-                alert('Login Failed Please Try Again');
+                alert('NOT');
 
             } //end - error
 
@@ -84,10 +84,12 @@ var resettingRegistrationValuesForButtonPress = function() {
     //Toggling Boolean values
     toggleHeight = true;
     userIsRegistering = false;
+
+
 };
 
 var clearOutInputs = function() {
-    //removing content from the initial input fields
+    //removing content from the inital input fields
     $('#usernameInputField').val('');
     $('#passwordInputField').val('');
 
@@ -146,4 +148,5 @@ var removeFormFields = function() {
     $('#passwordConfirmation').remove();
     $('#emailConfirmationOne').remove();
     $('#emailConfirmationTwo').remove();
+
 };

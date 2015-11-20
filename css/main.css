@@ -1,124 +1,96 @@
-@font-face {
-    font-family: ProximaNova;
-    src: url("/fonts/proxima_nova/proxima_nova_reg-webfont.ttf");
-}
-
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0
-}
-
-.container-fluid {
-    height: 100%;
-    display: table;
-    width: 100%;
-    padding: 0;
-}
-
-.row-fluid {
-    height: 100%;
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.centering {
-    float: none;
-    margin: 0 auto;
-}
-
-body {
-    position: relative;
-    width: 100%;
-    background: white;
-    color: #333233;
-    font-family: "ProximaNova";
-    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/school.png");
-    background: #93B7BE;
-    background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -moz-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -moz-linear-gradient(-45deg, #0D529C 0%, #93B7BE 100%);
-    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -webkit-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -webkit-linear-gradient(-45deg, #0D529C 0%, #93B7BE 100%);
-    background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -o-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -o-linear-gradient(-45deg, #0D529C 0%, #93B7BE 100%);
-    background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -ms-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -ms-linear-gradient(-45deg, #0D529C 0%, #93B7BE 100%);
-    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), linear-gradient(to bottom, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), linear-gradient(135deg, #0D529C 0%, #93B7BE 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0D529C', endColorstr='#93B7BE', GradientType=1);
-}
-
-.center-vertically {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 .loginBox input {
-    background-color: #F1FFFA;
-    color: #454545;
+    background-color:#ecf0f1;
+    margin-bottom:20px;
+    margin-top:10px;
+    height:40px;
+    width:300px;
 }
 
-.loginInput {
-    width: 50%;
-    margin-top: 2%;
+.inputContainer {
+    height:300px;
 }
 
 .registrationButton {
-    border-radius: 25px;
-    width: 50%;
-    margin-top: 2%;
+    border-radius:25px;
+    background-color:#ecf0f1;
+    margin-left:5%;
+    width:132px;
+    position:relative;
+    margin-top:5%;
 }
 
-.companyName {
-    font-size: smaller;
-    color: #F1FFFA;
-    padding: 1%;
+.loginButton {
+    float:right;
+    margin-right:5%;
+    direction:ltr;
+    display:inline-block;
+    margin-top:5%;
 }
 
-.appName {
-    font-size: xx-large;
+button .btn .btn-success {
 }
 
-.logo {
-    padding: 1%;
+.loginBox {
+    height:410px;
+    background-color:#34495e;
+    width:360px;
+    box-shadow:3px 3px 3px 0 rgba(0, 0, 0, 0.80);
 }
 
-h2.form-login-heading {
-    color: #F1FFFA;
+.avatarContainer {
+    height:130px;
+    width:125px;
 }
 
-.btn-default.active,
-.btn-default.focus,
-.btn-default:active,
-.btn-default:focus,
-.btn-default:hover,
-.open > .dropdown-toggle.btn-default {
-    background-color: #93B7BE;
-    color: #F1FFFA;
-    border-color: #93B7BE;
-    border-width: thick;
+.avatarImage {
+    padding: 5%;
+    width: 150px;
 }
 
-form {
-    width: 50%;
-    margin: 0 auto;
+.loginBox label {
+    color:#ecf0f1;
+    text-align:center;
+    font-size:x-large;
+    margin-top:10%;
 }
 
-.form-control {
-    display: inline-flex;
+container {
 }
 
-@media (max-width: 768px) {
-    .btn-responsive {
-        padding: 2px 4px;
-        font-size: 80%;
-        line-height: 1;
-        border-radius: 3px;
-        
-    }
+@charset "utf-8";
+body {
+    color:#555;
 }
 
-@media (min-width: 769px) and (max-width: 992px) {
-    .btn-responsive {
-        padding: 4px 9px;
-        font-size: 90%;
-        line-height: 1.2;
-    }
+.siteContainer {
+    padding-top:none;
+    overflow:scroll;
+    background-color:#ecf0f1;
 }
+
+.homepageInvsNav {
+    background-color:#ecf0f1;
+}
+
+.loginContainer {
+    background-color:;
+    height:400px;
+    margin-top:70px;
+}
+
+.registrationSection {
+    height:450px;
+    background-color:#ecf0f1;
+}
+
+.avatarContainer h2 {
+    color:#ecf0f1;
+    text-align:center;
+}
+
+.websiteBrand {
+    background-color:;
+    font-family:Savoye LET;
+    font-size:-webkit-xxx-large;
+}
+
