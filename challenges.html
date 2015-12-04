@@ -1,116 +1,111 @@
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>
-			Untitled
-		</title>
-		<meta name="description" />
-		<meta name="author" />
-		<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=2.0;" />
-		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="css/siteDefaults.css" />
-		<link rel="stylesheet" href="css/sprites.css" />
-		<link rel="stylesheet" href="css/challenges.css" />
-		<link media="all" rel="stylesheet" href="assets/css/pro-bars.min.css" type="text/css" />
-	</head>
-	<body class="bodyContainer">
-		<div class="siteHeader">
-			<div class="navContainerDiv container-fluid">
-				<div class="row">
-					<div class="col-sm-2 col-xs-offset-4 col-sm-offset-0">
-						<h1 class="siteLogo">C#er</h1>
-					</div>
-					<div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
-						<div class="navBarItems">
-							<a class="scoreboardButton" href="scoreboard.html"></a>
-							<p>Scoreboard</p>
-						</div>
-					</div>
-					<div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
-						<div class="navBarItems">
-							<a class="challengesButton" href="challenges.html"></a>
-							<p>Challenges</p>
-						</div>
-					</div>
-					<div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
-						<div class="navBarItems">
-							<a class="skillsButton" href="skills.html"></a>
-							<p>Skills</p>
-						</div>
-					</div>
-					<div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
-						<div class="navBarItems">
-							<a class="optionsButton" href="#"></a>
-							<p>Options</p>
-						</div>
-					</div>
-					<div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
-						<div class="navBarItems">
-							<a class="dashboardButton" href="dashboard.html"></a>
-							<p>Dashboard</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="row bottom-buffer col-sm-offset-4 col-xs-offset-4">
-				<h2 class="pageNameText">Challenges</h2>
-			</div>
-		<div class="mainSectionContainer container-fluid">
-			<div class="row top-buffer">
-				<div class="buttonsBackground">
-					<div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
-						<div class="navBarItems">
-							<a class="challengesButton" href="challengelist.html" id="criticalthinkingbutton"></a>
-							<p>Critical Thinking</p>
-						</div>
-					</div>
-					<div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
-						<div class="navBarItems">
-							<a class="challengesButton" href="challengelist.html" id="timetrialbutton"></a>
-							<p>Time Trial</p>
-						</div>
-					</div>
-					<div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
-						<div class="navBarItems">
-							<a class="challengesButton" href="challengelist.html" id="recognitionbutton"></a>
-							<p>Recognition</p>
-						</div>
-					</div>
-					<div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
-						<div class="navBarItems">
-							<a class="challengesButton" href="challengelist.html" id="definitionsbutton"></a>
-							<p>Definitions</p>
-						</div>
-					</div>
-					<div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
-						<div class="navBarItems">
-							<a class="challengesButton" href="challengelist.html" id="aboveandbeyondbutton"></a>
-							<p>Above and Beyond</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
-		<script src="bootstrap/js/bootstrap.min.js"></script>
-		<script src="js/libs/jquery-1.11.2.min.js">
-			script
-		</script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-		<script src="assets/js/smoothscroll.min.js" type="text/javascript"></script>
-		<script src="assets/js/appear.min.js" type="text/javascript"></script>
-		<script src="assets/js/backbone.js" type="text/javascript"></script>
-		<script src="assets/js/pro-bars.min.js" type="text/javascript"></script>
-		<script type="text/javascript" src="js/challenges.js">
-			script type = 'text/javascript'
-			src = 'main.js' < script type = "text/javascript"
-			src = "js/progressbar.js" >
-				script type = 'text/javascript'
-			src = 'main.js'</script>
-	</body>
+
+<head>
+    <meta charset="utf-8" />
+    <title>
+        C#er
+    </title>
+    <meta name="description" />
+    <meta name="author" />
+    <!-- Favicon -->
+    <link rel="icon" href="imgs/favicons/favicon.ico">
+    <!-- Roboto Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=2.0;" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/siteDefaults.css" />
+    <link rel="stylesheet" href="css/sprites.css" />
+    <link rel="stylesheet" href="css/challenges.css" />
+    <link media="all" rel="stylesheet" href="assets/css/pro-bars.min.css" type="text/css" />
+</head>
+
+<body class="bodyContainer">
+    <div class="siteHeader">
+        <div class="navContainerDiv container-fluid">
+            <div class="row">
+                <div class="col-sm-2 col-xs-offset-4 col-sm-offset-0">
+                    <h1 class="siteLogo">C#er</h1>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                    <div class="navBarItems">
+                        <a class="scoreboardButton" href="scoreboard.html"></a>
+                        <p>Scoreboard</p>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                    <div class="navBarItems">
+                        <a class="challengesButton" href="challenges.html"></a>
+                        <p>Challenges</p>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                    <div class="navBarItems">
+                        <a class="skillsButton" href="skills.html"></a>
+                        <p>Skills</p>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                    <div class="navBarItems">
+                        <a class="optionsButton" href="#"></a>
+                        <p>Options</p>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                    <div class="navBarItems">
+                        <a class="dashboardButton" href="dashboard.html"></a>
+                        <p>Dashboard</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainSectionContainer container-fluid">
+        <div class="row top-buffer">
+            <div class="buttonsBackground">
+                <div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                    <div class="navBarChallenges">
+                        <a class="challengesButton" href="challengelist.html" id="criticalthinkingbutton"></a>
+                        <p>Critical Thinking</p>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                    <div class="navBarChallenges">
+                        <a class="challengesButton" href="challengelist.html" id="timetrialbutton"></a>
+                        <p>Time Trial</p>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                    <div class="navBarChallenges">
+                        <a class="challengesButton" href="challengelist.html" id="recognitionbutton"></a>
+                        <p>Recognition</p>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                    <div class="navBarChallenges">
+                        <a class="challengesButton" href="challengelist.html" id="definitionsbutton"></a>
+                        <p>Definitions</p>
+                    </div>
+                </div>
+                <div class="col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1">
+                    <div class="navBarChallenges">
+                        <a class="challengesButton" href="challengelist.html" id="aboveandbeyondbutton"></a>
+                        <p>Above and Beyond</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/libs/jquery-1.11.2.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="assets/js/smoothscroll.min.js" type="text/javascript"></script>
+    <script src="assets/js/appear.min.js" type="text/javascript"></script>
+    <script src="assets/js/backbone.js" type="text/javascript"></script>
+    <script src="assets/js/pro-bars.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/challenges.js"></script>
+</body>
+
 </html>

@@ -16,9 +16,10 @@
 
 ## Setup
 
-```shell
-$ bower install
-```
+Please login with the following account:
+
+username: `test`
+password: `testing`
 
 ---
 

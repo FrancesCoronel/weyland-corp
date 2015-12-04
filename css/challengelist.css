@@ -1,40 +1,38 @@
 @charset "utf-8";
 .pageLabelAndImageContainer {
-    margin-top:110px;
-    height:400px;
+    margin-top: 110px;
+    height: 400px;
 }
 
 div h2 {
-    font-family:Helvetica Neue;
-    font-size:-webkit-xxx-large;
-    font-weight:100;
-    padding-left:49px;
+    font-size: -webkit-xxx-large;
+    font-weight: 100;
+    padding-left: 49px;
 }
 
 li {
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 li a {
-    margin-right:19px;
+    margin-right: 19px;
 }
 
 li p {
-    padding-top:19px;
-    font-size:x-large;
-    height:inherit;
+    padding-top: 19px;
+    font-size: x-large;
+    height: inherit;
 }
 
 .listHeader {
-    text-align:left;
-    font-family:Al Bayan;
+    text-align: left;
 }
 
 .mainSectionContainer ul {
-    margin-top:24px;
+    margin-top: 24px;
 }
 
 body {
-    color:#555;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
 }
-
