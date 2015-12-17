@@ -1,10 +1,4 @@
-/**
- * @author
 
-Developer:
-Blake McMillian
-
- */
 
 //Document ready function
 $( document ).ready(function() {

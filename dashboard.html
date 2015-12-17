@@ -7,17 +7,16 @@
         Dashboard
     </title>
     <meta name="description" content="This is your dashboard." />
-    <meta name="author" />
     <!-- Favicon -->
     <link rel="icon" href="imgs/favicons/favicon.ico">
     <!-- Roboto Font -->
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=2.0;" />
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/siteDefaults.css" />
     <link rel="stylesheet" href="css/sprites.css" />
     <link rel="stylesheet" href="css/dashboard.css" />
-    <link media="all" rel="stylesheet" href="assets/css/pro-bars.min.css" type="text/css" />
+    <link media="all" rel="stylesheet" href="bower_components/pro-bars/assets/css/pro-bars.min.css" type="text/css" />
 </head>
 
 <body class="bodyContainer">
@@ -93,14 +92,19 @@
             </div>
         </div>
     </div>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
+    <script>
+    var myApp = angular.module('myApp', ['ui.router']);
+    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/dashboard.js"></script>
     <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
-    <script src="assets/js/smoothscroll.min.js" type="text/javascript"></script>
+    <script src="bower_components/smoothscroll/SmoothScroll.js" type="text/javascript"></script>
     <script src="assets/js/appear.min.js" type="text/javascript"></script>
-    <script src="assets/js/backbone.js" type="text/javascript"></script>
+    <script src="bower_components/backbone/backbone-min.js"></script>
     <script src="assets/js/pro-bars.min.js" type="text/javascript"></script>
 </body>
 

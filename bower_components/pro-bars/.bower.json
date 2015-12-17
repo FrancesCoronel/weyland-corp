@@ -1,0 +1,14 @@
+{
+  "name": "pro-bars",
+  "homepage": "https://github.com/joemottershaw/pro-bars",
+  "_release": "ab4e11b731",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ab4e11b731db33e994c6dc33fe18128fb1b60d1c"
+  },
+  "_source": "git://github.com/joemottershaw/pro-bars.git",
+  "_target": "*",
+  "_originalSource": "pro-bars",
+  "_direct": true
+}
