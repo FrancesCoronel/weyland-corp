@@ -58,7 +58,7 @@ $(document).ready(function() {
                         // Execute any logic that should take place after the object is saved.
 
                         //Navigating to a new page
-                        location.href = "challengequestions.html";
+                        location.href = "challengeQuestions.html";
                     },
                     error: function(currentUser, error) {
                         // Execute any logic that should take place if the save fails.
