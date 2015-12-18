@@ -1,4 +1,3 @@
-@charset "utf-8";
 .pageLabelAndImageContainer {
     margin-top: 110px;
     height: 400px;
@@ -30,9 +29,4 @@ li p {
 
 .mainSectionContainer ul {
     margin-top: 24px;
-}
-
-body {
-    color: #555;
-    font-family: 'Roboto', sans-serif;
 }

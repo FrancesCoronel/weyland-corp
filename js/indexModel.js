@@ -60,15 +60,15 @@ var parseLoginAuthentication = function(username, password) {
 
 var renderingRegistrationFieldsAndAppendingThemToDOM = function() {
 
-    $('#passwordInputField').after('<input type="password" value="" class=".loginBox input 					center-block" placeholder="Confirm Password" id="passwordConfirmation" />');
+    $('#passwordInputField').after('<input type="password" value="" class="form-control .loginBox input 					center-block" placeholder="confirm password" id="passwordConfirmation" />');
 
     $('#passwordConfirmation').hide().show('slow');
 
-    $('#passwordConfirmation').after('<input type="email" value="" class=".loginBox input 					center-block" placeholder="Enter Email" id="emailConfirmationOne" />');
+    $('#passwordConfirmation').after('<input type="email" value="" class="form-control .loginBox input 					center-block" placeholder="enter email" id="emailConfirmationOne" />');
 
     $('#emailConfirmationOne').hide().show('slow');
 
-    $('#emailConfirmationOne').after('<input type="email" value="" class=".loginBox input 					center-block" placeholder="Confirm Email" id="emailConfirmationTwo" />');
+    $('#emailConfirmationOne').after('<input type="email" value="" class="form-control .loginBox input 					center-block" placeholder="confirm email" id="emailConfirmationTwo" />');
 
     $('#emailConfirmationTwo').hide().show('slow');
 

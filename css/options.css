@@ -1,24 +1,3 @@
-@charset "utf-8";
-.contentList {}
-
-#usernameInputField {
-    display: inline-block;
-    width: 300px;
-    background-color: transparent;
-}
-
-#passwordInputField {
-    display: inline-block;
-    width: 300px;
-    background-color: transparent;
-}
-
-#emailInputField {
-    display: inline-block;
-    width: 300px;
-    background-color: transparent;
-}
-
 #profileImage {
     height: 400px;
     width: 400px;
@@ -172,13 +151,6 @@ li p {
     text-align: left;
 }
 
-.answerText {}
-
 .mainSectionContainer ul {
     margin-top: 0px;
-}
-
-body {
-    color: #93B7BE;
-    font-family: 'Roboto', sans-serif;
 }

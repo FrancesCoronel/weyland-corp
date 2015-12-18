@@ -3,15 +3,6 @@ a p {
     padding: 75px 4px 4px 4px;
 }
 
-.button_1 {
-    border-radius: 20px;
-    width: 47px;
-    height: 41px;
-    background-color: #3498db;
-    margin: 4px;
-    display: inline-block;
-}
-
 button p {
     color: white;
 }
