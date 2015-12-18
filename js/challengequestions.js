@@ -252,7 +252,7 @@ $(document).ready(function() {
                 // Execute any logic that should take place after the object is saved.
 
                 //Navigating to a new page
-                location.href = "challengeevaluation.html";
+                location.href = "challengeEvaluation.html";
             },
             error: function(currentUser, error) {
                 // Execute any logic that should take place if the save fails.
@@ -278,7 +278,7 @@ $(document).ready(function() {
 
             if (--timer < 0) {
                 timer = duration;
-                location.href = "challengeevaluation.html";
+                location.href = "challengeEvaluation.html";
             }
         }, 1000);
     }
