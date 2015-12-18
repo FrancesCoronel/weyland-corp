@@ -1,6 +1,3 @@
-/**
- * @author
- */
 $(document).ready(function() {
 
     //Reinitilizng Parse

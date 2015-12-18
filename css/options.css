@@ -1,3 +1,21 @@
+#usernameInputField {
+    display: inline-block;
+    width: 300px;
+    background-color: transparent;
+}
+
+#passwordInputField {
+    display: inline-block;
+    width: 300px;
+    background-color: transparent;
+}
+
+#emailInputField {
+    display: inline-block;
+    width: 300px;
+    background-color: transparent;
+}
+
 #profileImage {
     height: 400px;
     width: 400px;
@@ -13,63 +31,10 @@ a p {
     padding: 75px 4px 4px 4px;
 }
 
-.button_1 {
-    border-radius: 20px;
-    width: 47px;
-    height: 41px;
-    background-color: transparent;
-    margin: 4px;
-    display: inline-block;
-}
-
-button p {
-    color: black;
-}
-
-.button_2 {
-    border-radius: 20px;
-    width: 47px;
-    height: 41px;
-    background-color: transparent;
-    margin: 4px;
-}
-
 li button {
     padding-bottom: 12px;
 }
 
-.button_3 {
-    border-radius: 20px;
-    width: 47px;
-    height: 41px;
-    background-color: transparent;
-    margin: 4px;
-}
-
-.button_4 {
-    border-radius: 20px;
-    width: 57px;
-    height: 41px;
-    background-color: transparent;
-    margin: 4px auto;
-    display: block;
-}
-
-.buttonPrevious {
-    border-radius: 20px;
-    width: 47px;
-    height: 41px;
-    background-color: #ecf0f1;
-    margin: 95px 4px 4px 4px;
-}
-
-.buttonNext {
-    border-radius: 20px;
-    width: 47px;
-    height: 41px;
-    background-color: #ecf0f1;
-    margin: 95px 4px 4px 4px;
-}
 
 .buttonSubmit {
     border-radius: 42px;
@@ -84,8 +49,7 @@ li button {
 }
 
 .answerchoiceContainer {
-    margin-top: 20px;
-    height: 500px;
+    margin-top: 5%;
     display: block;
 }
 
@@ -95,19 +59,14 @@ li button {
 }
 
 .profileImageContainer {
-    width: 350;
     height: 400px;
     background: transparent;
-    box-shadow: 0px;
+    margin-bottom: 5%;
 }
 
 .middleContainer {
     height: 250px;
     display: block;
-}
-
-.buttonNext {
-    margin-top: 95px;
 }
 
 .pageLabelAndImageContainer {
@@ -151,6 +110,13 @@ li p {
     text-align: left;
 }
 
+.answerText {}
+
 .mainSectionContainer ul {
     margin-top: 0px;
+}
+
+body {
+    color: #93B7BE;
+
 }

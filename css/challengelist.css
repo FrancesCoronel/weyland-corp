@@ -6,7 +6,8 @@
 div h2 {
     font-size: -webkit-xxx-large;
     font-weight: 100;
-    padding-left: 49px;
+    margin-top: 5%;
+    text-align: center;
 }
 
 li {
@@ -29,4 +30,9 @@ li p {
 
 .mainSectionContainer ul {
     margin-top: 24px;
+}
+
+body {
+    color: #555;
+
 }

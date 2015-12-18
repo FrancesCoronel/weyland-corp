@@ -3,16 +3,12 @@
 }
 
 .rankLevelSection {
-    height: 63px;
-}
-
-.usernameText {
-    text-align: center;
-    padding-left: none;
+    margin: 5%;
 }
 
 .profileImageSection {
     height: 450px;
+    text-align: center;
 }
 
 .profileImageSection div {
@@ -21,27 +17,6 @@
 }
 
 .rankLevelSection h2 {
-    padding-left: 14px;
+    text-align: center;
     font-weight: 300;
-    width: 60px;
-}
-
-div img {
-    padding-top: 9px;
-    padding-left: -5px;
-}
-
-.profileImageSection img {
-    align-self: center;
-}
-
-body {
-    color: #555;
-    font-family: 'Roboto', sans-serif;
-}
-
-@media(max-width:767px) {
-    .starImage {
-        display: none;
-    }
 }

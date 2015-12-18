@@ -1,17 +1,26 @@
 #skillCircle {
-    height: 80px;
+    height: 100px;
 }
 
 #skillCircle strong {
     text-align: left;
 }
 
+.row.rankRow {
+    margin-top: 5%;
+}
+
 #scoreCircle {
     height: 80px;
 }
 
-.starImage {
-    padding-left: 24px;
+.row.rankRowTitle {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#larger {
+    font-size: xx-large;
 }
 
 rankRow {

@@ -1,29 +1,7 @@
-@charset "utf-8";
-.pageLabelAndImageContainer {
-    margin-top: 110px;
-    height: 400px;
-}
-
-div h2 {
-    font-size: -webkit-xxx-large;
-    font-weight: normal;
-    padding-left: 49px;
-}
-
-li {
-    margin-bottom: 29px;
-}
-
 li p {
-    padding-top: 22px;
     font-size: x-large;
 }
 
-.mainSectionContainer ul {
-    margin-top: 98px;
-}
-
-body {
-    color: #555;
-    font-family: 'Roboto', sans-serif;
+ol {
+    font-size: xx-large;
 }
