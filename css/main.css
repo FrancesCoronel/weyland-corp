@@ -1,0 +1,681 @@
+button p {
+    color: white;
+}
+
+.answerchoiceContainer {
+    margin-top: 20px;
+    height: 500px;
+}
+
+.questionText {
+    padding: 5%;
+    /* white-space: normal; */
+    /* font-family: Al Bayan; */
+    font-size: large;
+    color: white;
+}
+
+.questionContainer {
+    width: 350;
+    height: 250px;
+    background: #2c3e50;
+    box-shadow: 6px 7px 12px -1px rgba(0, 0, 0, 1.00);
+}
+
+.middleContainer {
+    height: 250px;
+    display: block;
+}
+
+.pageLabelAndImageContainer {
+    margin-top: 110px;
+    height: 400px;
+}
+
+div h2 {
+    font-size: -webkit-xxx-large;
+    font-weight: 100;
+    /* padding-left: 67px; */
+    text-align: center;
+    margin: 5%;
+}
+
+li {
+    margin-bottom: 25px;
+    border: solid 1px transparent;
+    color: black;
+}
+
+li a {
+    margin-right: 19px;
+}
+
+li p {
+    font-size: medium;
+    display: inline-block;
+    white-space: normal;
+    /* height: 40px; */
+    /* width: 550px; */
+    /* word-wrap: break-word; */
+    margin-left: 5%;
+}
+
+.mainSectionContainer ul {
+    margin-top: 0px;
+}
+
+ul {
+    display: inline-block;
+}
+
+.col-md-12.list-unstyled {
+    margin-top: 5%;
+}
+
+.Timer {
+    margin-top: 5%;
+    white-space: normal;
+    font-size: large;
+    color: black;
+    text-align: center;
+}
+
+#skillCircle {
+    height: 100px;
+}
+
+#skillCircle strong {
+    text-align: left;
+}
+
+.row.rankRow {
+    margin-top: 5%;
+}
+
+#scoreCircle {
+    height: 80px;
+}
+
+.row.rankRowTitle {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#larger {
+    font-size: xx-large;
+}
+
+rankRow {
+    height: 63px;
+}
+
+.usernameText {
+    text-align: center;
+    padding-left: none;
+}
+
+.profileImageSection {
+    height: 450px;
+}
+
+.profileImageSection div {
+    height: 400px;
+    width: 400px;
+}
+
+.rankLevelSection h2 {
+    padding-left: 14px;
+    font-weight: 300;
+    width: 60px;
+}
+
+div img {
+    padding-top: 9px;
+    padding-left: -5px;
+}
+
+.profileImageSection img {
+    align-self: center;
+}
+
+@media(max-width:767px) {
+    .starImage {
+        display: none;
+    }
+}
+
+.pageLabelAndImageContainer {
+    margin-top: 110px;
+    height: 400px;
+}
+
+div h2 {
+    font-size: -webkit-xxx-large;
+    font-weight: 100;
+    margin-top: 5%;
+    text-align: center;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li a {
+    margin-right: 19px;
+}
+
+li p {
+    padding-top: 19px;
+    font-size: x-large;
+    height: inherit;
+}
+
+.listHeader {
+    text-align: left;
+}
+
+.mainSectionContainer ul {
+    margin-top: 24px;
+}
+
+body {
+    color: #555;
+
+}
+
+.bottom-buffer {
+    margin-top: 1%;
+}
+
+.top-buffer {
+    margin-top: 5%;
+}
+
+.pageNameText {
+    font-size: 4.8em;
+    font-weight: 100;
+}
+
+.starImage {
+    padding-left: 45px;
+}
+
+.rankLevelSection {
+    margin: 5%;
+}
+
+.profileImageSection {
+    height: 450px;
+    text-align: center;
+}
+
+.profileImageSection div {
+    height: 400px;
+    width: 400px;
+}
+
+.rankLevelSection h2 {
+    text-align: center;
+    font-weight: 300;
+}
+.loginBox {
+    height: 50%;
+    width: 50%;
+}
+
+.loginBox input {
+    background-color: #ecf0f1;
+    margin: 5%;
+    width: 90%;
+}
+
+a {
+    color: #92B7BE;
+}
+
+a:hover {
+    color: #F1FFFA;
+    text-decoration: none;
+}
+
+footer.footer {
+    text-align: center;
+    color: #ecf0f1;
+    margin-top: 5%;
+}
+
+.registrationButton {
+    border-radius: 25px;
+    width: 100%;
+    position: relative;
+    margin-top: 5%;
+}
+
+.avatarContainer {
+    height: 130px;
+    width: 125px;
+}
+
+.avatarImage {
+    padding: 5%;
+    width: 150px;
+}
+
+.loginBox label {
+    color: #ecf0f1;
+    text-align: center;
+    font-size: x-large;
+    padding: 10%;
+}
+
+.loginContainer {
+    height: 400px;
+    margin-top: 70px;
+}
+
+.registrationSection {
+    height: 450px;
+}
+
+.avatarContainer h2 {
+    color: #ecf0f1;
+    text-align: center;
+}
+
+.websiteBrand {
+    font-size: -webkit-xxx-large;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    height: 50%;
+    background: white;
+    color: #333233;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #93B7BE;
+    background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -moz-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -moz-linear-gradient(-45deg, #0D529C 0%, #93B7BE 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -webkit-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -webkit-linear-gradient(-45deg, #0D529C 0%, #93B7BE 100%);
+    background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -o-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -o-linear-gradient(-45deg, #0D529C 0%, #93B7BE 100%);
+    background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), -ms-linear-gradient(top, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), -ms-linear-gradient(-45deg, #0D529C 0%, #93B7BE 100%);
+    background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104, 128, 138, .4) 10%, rgba(138, 114, 76, 0) 40%), linear-gradient(to bottom, rgba(57, 173, 219, .25) 0%, rgba(42, 60, 87, .4) 100%), linear-gradient(135deg, #0D529C 0%, #93B7BE 100%);
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.footer {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+/* Custom page footer */
+.footer {
+    padding-top: 1.5rem;
+    border-top: .05rem solid #e5e5e5;
+}
+/* Customize container */
+@media (min-width: 48em) {
+    .container {
+        max-width: 46rem;
+    }
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 48em) {
+    /* Remove the padding we set earlier */
+    .footer {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+#usernameInputField {
+    display: inline-block;
+    width: 300px;
+    background-color: transparent;
+}
+
+#passwordInputField {
+    display: inline-block;
+    width: 300px;
+    background-color: transparent;
+}
+
+#emailInputField {
+    display: inline-block;
+    width: 300px;
+    background-color: transparent;
+}
+
+#profileImage {
+    height: 400px;
+    width: 400px;
+    margin-top: 25px;
+}
+
+.submissionAnchor {
+    margin-left: 3px;
+}
+
+a p {
+    text-align: center;
+    padding: 75px 4px 4px 4px;
+}
+
+li button {
+    padding-bottom: 12px;
+}
+
+
+.buttonSubmit {
+    border-radius: 42px;
+    width: 96px;
+    height: 120px;
+    background-color: #ecf0f1;
+    margin: 0px 4px 4px 4px;
+}
+
+.submissionDiv {
+    margin-top: 30px;
+}
+
+.answerchoiceContainer {
+    margin-top: 5%;
+    display: block;
+}
+
+.questionText {
+    margin-top: 25px;
+    white-space: normal;
+}
+
+.profileImageContainer {
+    height: 400px;
+    background: transparent;
+    margin-bottom: 5%;
+}
+
+.middleContainer {
+    height: 250px;
+    display: block;
+}
+
+.pageLabelAndImageContainer {
+    margin-top: 110px;
+    height: 400px;
+}
+
+div h2 {
+    font-family: Helvetica Neue;
+    font-size: x-large;
+    font-weight: 100;
+    padding-left: 67px;
+}
+
+li {
+    margin-bottom: 25px;
+    border: solid 1px transparent;
+    color: black;
+}
+
+li a {
+    margin-right: 19px;
+}
+
+li p {
+    padding-top: -3px;
+    font-size: small;
+    display: inline-block;
+    white-space: normal;
+    height: 40px;
+    width: 550px;
+    word-wrap: break-word;
+    color: black;
+    text-align: left;
+    padding-top: 8px;
+}
+
+.questionChoiceOne {
+    padding-top: 32px;
+    height: inherit;
+    text-align: left;
+}
+
+.answerText {}
+
+.mainSectionContainer ul {
+    margin-top: 0px;
+}
+
+body {
+    color: #93B7BE;
+
+}
+
+li p {
+    font-size: x-large;
+}
+
+ol {
+    font-size: xx-large;
+}
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    padding-bottom: 1.5rem;
+    height: 50%;
+    background-color: #ecf0f1;
+    color: #333233;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.siteLogo {
+    font-size: 6em;
+    color: #ecf0f1;
+    height: inherit;
+    width: 90px;
+    padding-left: 16px;
+}
+
+.siteHeader {
+    height: 125px;
+    width: 100%;
+    background-color: #34495e;
+    display: block;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.navBarItems {
+    height: 95px;
+    width: 80px;
+    margin-top: 15px;
+    margin-left: -21px;
+}
+
+.navBarChallenges {
+    height: 95px;
+    width: 80px;
+    margin-top: 15px;
+    margin-left: -21px;
+}
+
+@media(max-width:767px) {
+    .siteHeader {
+        height: 240px;
+    }
+}
+
+.navContainerDiv {
+    height: inherit;
+}
+
+.skillsHeader {
+    margin-top: 38px;
+    z-index: 0;
+    display: run-in;
+    position: absolute;
+}
+
+div h2 {
+    font-size: 5em;
+    font-weight: lighter;
+        margin-top: 5%;
+}
+
+li span {
+    display: -webkit-inline-box;
+    width: 362px;
+    height: 65px;
+    background: url(../imgs/skills/star.png) 0 0;
+}
+
+li span span {
+    display: block;
+    height: 65px;
+    width: 50%;
+    background: url(../imgs/skills/starBold.png) 0 0p;
+}
+
+.skillLabelListItem {
+    margin-bottom: -15px;
+}
+
+li p {
+    padding-top: 13px;
+    font-size: 3em;
+}
+
+.mainSectionContainer ul {
+    margin-top: 150px;
+}
+
+.starList {
+    margin-top: 5%;
+}
+.scoreboardButton {
+    background: url(../imgs/navigationBar/scoreboardSprite.png) no-repeat;
+    display: block;
+    height: 75px;
+    width: 75px;
+}
+
+.scoreboardButton:hover,
+.scoreboardButton:focus {
+    background-position: 0 -75px;
+    width: 75px;
+    height: 75px;
+}
+
+.navBarItems p {
+    color: white;
+    text-align: center;
+}
+
+.navBarChallenges p {
+    color: black;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.challengesButton {
+    background: url(../imgs/navigationBar/challengesSprite.png) no-repeat;
+    display: block;
+    height: 75px;
+    width: 75px;
+}
+
+.challengesButton:hover,
+.challengesButton:focus {
+    background-position: 0 -76px;
+    width: 75px;
+    height: 75px;
+}
+
+.skillsButton {
+    background: url(../imgs/navigationBar/skillsSprite.png) no-repeat;
+    display: block;
+    height: 75px;
+    width: 75px;
+}
+
+.skillsButton:hover,
+.skillsButton:focus {
+    background-position: 0 -76px;
+    width: 75px;
+    height: 75px;
+}
+
+.optionsButton {
+    background: url(../imgs/navigationBar/optionsSprite.png) no-repeat;
+    display: block;
+    height: 75px;
+    width: 75px;
+}
+
+.optionsButton:hover,
+.optionsButton:focus {
+    background-position: 0 -76px;
+    width: 75px;
+    height: 75px;
+}
+
+.dashboardButton {
+    background: url(../imgs/navigationBar/dashboardSprite.png) no-repeat;
+    display: block;
+    height: 75px;
+    width: 75px;
+}
+
+.dashboardButton:hover,
+.dashboardButton:focus {
+    background-position: 0 -76px;
+    width: 75px;
+    height: 75px;
+}
+
+#criticalthinkingbutton {
+    background: url(../imgs/challenges/criticalThinking.png) no-repeat;
+    display: block;
+    height: 128px;
+    width: 128px;
+}
+
+#timetrialbutton {
+    background: url(../imgs/challenges/timeTrial.png) no-repeat;
+    display: block;
+    height: 128px;
+    width: 128px;
+}
+
+#recognitionbutton {
+    background: url(../imgs/challenges/recognition.png) no-repeat;
+    display: block;
+    height: 128px;
+    width: 128px;
+}
+
+#definitionsbutton {
+    background: url(../imgs/challenges/definitions.png) no-repeat;
+    display: block;
+    height: 128px;
+    width: 128px;
+}
+
+#aboveandbeyondbutton {
+    background: url(../imgs/challenges/aboveBeyond.png) no-repeat;
+    display: block;
+    height: 128px;
+    width: 128px;
+}
