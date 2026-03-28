@@ -4,13 +4,13 @@
 
 > This is WeylandCorp's update to ASTRO's base code for CSC 404.
 
-<a href="http://fvcproductions.github.io/WeylandCorp"><img src="https://raw.githubusercontent.com/fvcproductions/WeylandCorp/master/imgs/loginScreen/Logo.png" title="C#er"></a>
+<a href="http://francescoronel.github.io/WeylandCorp"><img src="https://raw.githubusercontent.com/fvcproductions/WeylandCorp/master/imgs/loginScreen/Logo.png" title="C#er"></a>
 
-[![Github Issues](http://githubbadges.herokuapp.com/fvcproductions/WeylandCorp/issues.svg?style=flat-square)](https://github.com/fvcproductions/WeylandCorp/issues) [![Pending Pull-Requests](http://githubbadges.herokuapp.com/fvcproductions/WeylandCorp/pulls.svg?style=flat-square)](https://github.com/fvcproductions/WeylandCorp/pulls) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+[![Github Issues](http://githubbadges.herokuapp.com/fvcproductions/WeylandCorp/issues.svg?style=flat-square)](https://github.com/FrancesCoronel/WeylandCorp/issues) [![Pending Pull-Requests](http://githubbadges.herokuapp.com/fvcproductions/WeylandCorp/pulls.svg?style=flat-square)](https://github.com/FrancesCoronel/WeylandCorp/pulls) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 ---
 
-# Head over to <a href="http://fvcproductions.github.io/WeylandCorp" target="_blank" title="WeylandCorp">`fvcproductions.github.io/WeylandCorp`</a> to start experiencing **C#er**.
+# Head over to <a href="http://francescoronel.github.io/WeylandCorp" target="_blank" title="WeylandCorp">`francescoronel.github.io/WeylandCorp`</a> to start experiencing **C#er**.
 
 ---
 
@@ -27,7 +27,7 @@ password: `testing`
 
 To get started...
 
-1. Fork this repo using `https://github.com/fvcproductions/WeylandCorp`. 🍴
+1. Fork this repo using `https://github.com/FrancesCoronel/WeylandCorp`. 🍴
 2. Make some awesome changes. 🙃
 3. Create a pull request! 🔃
 
@@ -35,10 +35,10 @@ To get started...
 
 ## Team
 
-| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="https://github.com/brandondrichards12" target="_blank">**Brandon Richards**</a> |
+| <a href="http://francescoronel.com" target="_blank">**FVCproductions**</a> | <a href="https://github.com/brandondrichards12" target="_blank">**Brandon Richards**</a> |
 | :---: |:---:|
 | Coder | Coder |
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![Brandon](https://avatars1.githubusercontent.com/u/15094485?v=3&s=200)](https://github.com/brandondrichards12) |
+| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://francescoronel.com)    | [![Brandon](https://avatars1.githubusercontent.com/u/15094485?v=3&s=200)](https://github.com/brandondrichards12) |
 
 | Jordan Quick | Charles Cephas | Justin Havens
 | :---: |:---:|:--:|
